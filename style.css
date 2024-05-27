@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+
+
+}
+
+ul {
+    height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+li:hover {
+    color: black;
+    background-color: red;
+    cursor: pointer;
+
+}
+
+ul>li {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#home-container {
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: rgb(250, 70, 70);
+
+
+
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-arounds;
+    align-items: center;
+
+}
+
+#navu-container {
+
+    width: 20%;
+    border: 50px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    margin-left: 4%;
+
+
+}
+
+
+.img {
+    height: 99px;
+    width: 100%;
+
+    background: url(./asset/cropped-1920-1080-1149317.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+}
+
+#navu-container>.card>h2,
+p {
+    color: white;
+    text-align: center;
+    padding: 10px 5px 8px;
+
+    background-color: black;
+
+
+
+}
+
+#navu-container>.card>article {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    background-color: black;
+
+
+}
+
+#navu-container>.card>article>button {
+    padding: 5px 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+    background-color: rgb(250, 70, 70);
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+
+#navu-container:hover {
+
+    cursor: pointer;
+
+
+}
+
+.btn1:hover {
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jett-container {
+
+    width: 20%;
+    border: 50px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.img2 {
+    height: 99px;
+    width: 100%;
+
+    background: url(./asset/jett.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+}
+
+#jett-container>.card2>h2,
+p {
+    color: white;
+    text-align: center;
+    padding: 10px 5px 8px;
+
+    background-color: black;
+
+
+
+}
+
+#jett-container>.card2>.cardd {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    background-color: black;
+
+
+}
+
+#jett-container>.card2>.cardd>.btn {
+    padding: 5px 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+    background-color: rgb(250, 70, 70);
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+#jett-container:hover {
+
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sova-container {
+
+    width: 20%;
+    border: 50px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.img3 {
+    height: 99px;
+    width: 100%;
+
+    background: url(./asset/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+}
+
+#sova-container>.card3>h2,
+p {
+    color: white;
+    text-align: center;
+    padding: 10px 5px 8px;
+
+    background-color: black;
+
+
+
+}
+
+#sova-container>.card3>.cardd3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    background-color: black;
+
+
+}
+
+#sova-container>.card3>.cardd3>.btn3 {
+    padding: 5px 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+    background-color: rgb(250, 70, 70);
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+#sova-container:hover {
+
+    cursor: pointer;
+
+
+}
+
+.btn3:hover {
+    cursor: pointer;
+
+}
+
+.img3:hover::after {
+    content: url('./asset/wallpaperflare.com_wallpaper\ \(2\).jpg');
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    transform: translate();
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#phn-container {
+
+    width: 20%;
+    border: 50px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.img4 {
+    height: 99px;
+    width: 100%;
+
+    background: url(./asset/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+}
+
+#phn-container>.card4>h2,
+p {
+    color: white;
+    text-align: center;
+    padding: 10px 5px 8px;
+
+    background-color: black;
+
+
+
+}
+
+#phn-container>.card4>.cardd4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    background-color: black;
+
+
+}
+
+#phn-container>.card4>.cardd4>.btn4 {
+    padding: 5px 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+    background-color: rgb(250, 70, 70);
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+#phn-container:hover {
+
+    cursor: pointer;
+
+
+}
+
+.btn4:hover {
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
